@@ -112,7 +112,7 @@
       if (latestState) {
         if (statusElem) {
           if (wheelApi.isConnected !== lastConnectionStatus) {
-            if (wheelApi.isConnected && latestState.IsRegistered == 0) {
+            if (wheelApi.isConnected && latestState.IsRegistered == 1) {
               statusElem.textContent = 'FFBeast Wheel PRO connected';
               statusElem.classList.add('connected');
               statusElem.classList.remove('disconnected');
